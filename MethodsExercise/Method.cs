@@ -19,5 +19,22 @@ namespace MethodsExercise
             int product = x * y;
             return product;
         }
+        public static int Divide (int x, int y) 
+        {
+            int quotient = x / y;
+            return quotient;
+        }
+        public static int Subtract (int x, int y)
+        {
+            int difference = x - y;
+            return difference;
+        }
+        public static int Remainder (int x, int y)
+        {
+            int remainder = x % y;
+            return remainder;
+        }
+
+        
     }
 }
